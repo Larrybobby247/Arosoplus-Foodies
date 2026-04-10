@@ -1,10 +1,10 @@
 
-import Product1 from '../assets/Product1.jpg';
-import Product2 from '../assets/Product2.jpg';
-import Product3 from '../assets/Product3.jpg';
-import Product4 from '../assets/Product4.jpg';
+import Product1 from '../assets/product1.jpg';
+import Product2 from '../assets/product2.jpg';
+import Product3 from '../assets/product3.jpg';
+import Product4 from '../assets/product4.jpg';
 // import Product5 from '../assets/Product5.jpg';
-import Product6 from '../assets/Product6.jpg';
+import Product6 from '../assets/product6.jpg';
 
 export const ProductLists = [
   {
