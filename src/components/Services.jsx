@@ -4,7 +4,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons/faPhone";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import Service1 from '../assets/cat1.jpg'
-import Service2 from '../assets/cat2.jpg'
+import Service2 from '../assets/product2.jpg'
 import Service3 from '../assets/product7.jpg'
 import Service4 from '../assets/cat3.jpg'
 import Service5 from '../assets/product1.jpg'

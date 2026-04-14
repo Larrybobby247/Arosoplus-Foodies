@@ -13,7 +13,7 @@ import Product10 from '../assets/product10.jpg';
 export const ProductLists = [
   {
     id: 1,
-    name: "Smokey Jollof with plantain and turkey",
+    name: "Vegetable indomie with turkey",
     // description: "Our signature firewood-flavored Jollof, served with peppered proteins and sides.",
     arrival: "top", // Best seller
     image: Product1,
@@ -33,7 +33,7 @@ export const ProductLists = [
   },
   {
     id: 3,
-    name: "Food Package combo",
+    name: "Canapes",
     // description: "Rich spinach soup prepared with palm oil, locust beans, and assorted obstacles.",
     arrival: "top",
     image: Product3,
@@ -43,7 +43,7 @@ export const ProductLists = [
   },
   {
     id: 4,
-    name: "Luxery Rice with fried fish with plantaion and salad",
+    name: "Smoky jollof & special fried rice",
     // description: "A curated celebration tray featuring variety: pasta, proteins, snacks, and fruits.",
     arrival: "top", 
     image: Product4,
@@ -62,7 +62,7 @@ export const ProductLists = [
   },
   {
     id: 6,
-    name: "Macaroni dessert",
+    name: "Creamy penne with prawn",
     // description: "Spiced, sautéed turkey and snails garnished with onions and bell peppers.",
     arrival: "regular",
     image: Product6,
