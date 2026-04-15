@@ -9,6 +9,8 @@ import Product7 from '../assets/product7.jpg';
 import Product8 from '../assets/product8.jpg';
 import Product9 from '../assets/product9.jpg';
 import Product10 from '../assets/product10.jpg';
+import Product11 from '../assets/product11.jpg';
+import Product12 from '../assets/product12.jpg';
 
 export const ProductLists = [
   {
@@ -80,7 +82,7 @@ export const ProductLists = [
   },
   {
     id: 8,
-    name: "Spicy spagetti with meat",
+    name: "Spicy spagetti with shredded chicken",
     // description: "Spiced, sautéed turkey and snails garnished with onions and bell peppers.",
     arrival: "top",
     image: Product8,
@@ -102,6 +104,24 @@ export const ProductLists = [
     // description: "Spiced, sautéed turkey and snails garnished with onions and bell peppers.",
     arrival: "top",
     image: Product10,
+    category: "Sides & Proteins",
+    priceTag: "Premium"
+  },
+  {
+    id: 11,
+    name: "Tapoica with fish",
+    // description: "Spiced, sautéed turkey and snails garnished with onions and bell peppers.",
+    arrival: "top",
+    image: Product11,
+    category: "Sides & Proteins",
+    priceTag: "Exclusive"
+  },
+  {
+    id: 12,
+    name: "Seafood okro served with garri",
+    // description: "Spiced, sautéed turkey and snails garnished with onions and bell peppers.",
+    arrival: "regular",
+    image: Product12,
     category: "Sides & Proteins",
     priceTag: "Premium"
   }

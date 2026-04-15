@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import {ProductLists} from './ProductLists'  
 
 const RegularProds = () => {
+  const regularProds = ProductLists.filter(prod => prod.arrival === 'regular')
   return (
     <div>
       <div className='flex flex-col text-center gap-2 mb-12'>
@@ -12,7 +13,7 @@ const RegularProds = () => {
         <p className='text-grey'>View our meal categories from our store</p>
       </div>
       <div className='grid gap-8 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4'>
-        {ProductLists.map(product => {
+        {regularProds.map(product => {
           return(
             <div key={product.id} className='' data-aos="fade-right">
               <img src={product.image} alt="" className='rounded-xl h-[340px] w-full object-cover'/>
